@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+            }
+            html{
+                scroll-behavior: smooth;
+            }
+    .barra{
+        height: 80px;
+        width: 100%;
+        background-color: rgb(235, 204, 204);
+    }
+    .logo{
+        font-size: 45px;
+        font-family: 'Pacifico', cursive;
+        font-weight: bold;
+        color: rgb(93, 121, 118);
+        text-transform: capitalize;
+        float: left;
+        margin-left: 20px;
+        line-height: 80px;
+
+    }
+    .logo span{
+        color: rgb(54, 70, 68);
+    }
+    nav{
+        float: right;
+    }
+    nav ul{
+        list-style: none;
+    }
+    nav ul li{
+    display: inline-block;
+    }
+    nav a{
+        text-decoration: none;
+        font-size: 23px;
+        color: rgb(54, 70, 68);
+        text-transform: capitalize;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 20px;
+    }
+    nav a:hover{
+        color: #fff;
+    }
+    main{
+        height: 100vh;
+        width: 100%;
+        background-image: url(img/Fondo.jpg);
+        background-size: cover;
+    }
+    main div{
+        height: 120px;
+        width: 340px;
+background-color: rgb(233, 255, 255);
+font-size: 15px;
+color: rgb(54, 70, 68);
+float: right;
+display: flex;
+flex-flow: row wrap;
+justify-content: flex-start;
+align-content: space-around;
+font-family: 'Roboto', sans-serif;
+    }
+    h2{
+        text-align: center;
+        text-decoration: underline;
+        height: 42px;
+        width: 100%;
+        font-size: 30px;
+        color: rgb(54, 70, 68);
+        background-color: rgb(235, 204, 204);
+        font-family: 'Pacifico', cursive;
+        line-height: 40px;
+    }
+    .sec{
+        min-height: 500px;
+        width: 100%;
+        background-color: rgb(149, 196, 192);
+        color: rgb(235, 204, 204);
+
+    }
+    .sec1{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content:space-evenly;
+        align-items: center;
+        align-content: center;
+        gap: 50px;
+        font-family: 'Pacifico', cursive;
+    }
+    footer{
+        height: 150px;
+        width: 100%;
+        background-color: rgb(54, 70, 68);
+    }
+    footer p{
+        text-align: center;
+        font-size: 20px;
+        color: #fff;
+        padding-top: 20px;
+            }
+    footer i{
+        text-align: center;
+font-size: 40px;
+color: #fff;
+    }
+    .item{
+        height: 200px;
+        width: 200px;
+        background-color: rgb(54, 70, 68);
+        border: 2px solid rgb(235, 204, 204);
+        text-align: center;
+        font-size: 20px;
+        line-height: 200px;
+box-shadow: 1px 1px 5px #000;
+    }
+    .sec2{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex-flow: row wrap;
+        justify-content:space-evenly;
+        align-items: center;
+        align-content: center;
+        gap: 50px;
+        font-family: 'Pacifico', cursive;
+    }
+    .sec3{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex-flow: row wrap;
+        justify-content:space-evenly;
+        align-items: center;
+        align-content: center;
+        gap: 50px;
+        font-family: 'Pacifico', cursive;
+    }
+    .subir{
+        height: 50px;
+        width: 50px;
+        background-color:azure;
+        border: 5px rgb(93, 121, 118);
+        border-style: solid;
+        border-radius: 50%;
+        position: fixed;
+        right: 20px;
+        bottom: 20px;
+        text-align: center;
+        line-height: 50px;
+        color: rgb(93, 121, 118);
+        text-decoration: none;
+       font-size: 25px;
+    }
+  
